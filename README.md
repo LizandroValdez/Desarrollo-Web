@@ -1,4 +1,2 @@
 # Desarrollo-Web
-
-#Lizandro-Valdez 
-#  18100241
+#  Lizandro Valdez Gutierrez 18100241
