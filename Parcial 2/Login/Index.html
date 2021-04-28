@@ -1,80 +1,50 @@
-  
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RegisterLogin</title>
-    <link rel="stylesheet" href="css/estilos.css">
-    <script src ="js/jquery-3.6.0.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Inicio De Sesion</title>
+  <link rel="stylesheet" href="css/estilo.css">
+  <!-- Estilos Bootstrap CDN -->
+      <link 
+      rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+      crossorigin="anonymous">
+
+  
 </head>
 <body>
-    <div class="cod-container">
-        <div class="form-header">
-            <img src="img/login.gif" alt="Logo de Registro" width="100">
-            <h1> Programacion <span>Web </span> </h1>
-        </div>
+     <!-- Aquí esta incorporado jQuery a través de un CDN -->
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous">
+</script>
+<script src="js/codigo.js"></script>
 
-        <div class="form-content">
-            <form action="#" class="cod-form">
-                <div class="form-title">
-                    <h3>Iniciar Sesión</h3>
-                </div>
-
-               <div class="input-group">
-                    <input type="email" class="form-input" name="form-input" id="correo">
-                    <label class="label" for="correo">Correo</label>
-                </div>
-
-                <div class="input-group">
-                    <input type="password" class="form-input" name="form-input" id="pass">
-                    <label class="label" for="pass">Contraseña</label>
-                </div>
-
-               <div class="input-group">
-                    <input type="submit" class="form-input" value="Iniciar Sesión">
-                    <p>No tienes cuenta? <a href="#" class="alt-form">Ingresa aquí</a></p>
-                </div>
-
-            </form>
-        </div>
+  <div class="container my-0" id="contenido">
+    <label class="label" for="Usuario" class="display-4">Usuario</label>
+    <input  type="email" class="form-input" name="form-input" id="usuario">
+    <br><label class="label" for="password" class="display-4">Contraseña</label>
+    <input type="password" class="form-input" name="form-input" id="password"> <br><br>
+   <button class="btn btn-primary" id="boton">Iniciar Sesion</button>
 
 
-        <div class="form-content">
-            <form action="#" class="cod-form">
-                <div class="form-title">
-                    <h3>Registrate Gratis</h3>
-                </div>
-
-               <div class="input-group">
-                    <input type="email" class="form-input" name="form-input" id="reg-correo">
-                    <label class="label" for="reg-correo">Correo</label>
-                </div>
-
-                <div class="input-group">
-                    <input type="password" class="form-input" name="form-input" id="reg-pass">
-                    <label class="label" for="reg-pass">Contraseña</label>
-                </div>
-
-                <div class="input-group">
-                    <input type="password" class="form-input" name="form-input" id="rep-pass">
-                    <label class="label" for="rep=pass">Repetir Contraseña</label>
-                </div>
-
-               <div class="input-group">
-                    <input type="submit" class="form-input" value="Registrate">
-                    <p>Ya tienes cuenta? <a href="#" class="alt-form">Ingresa aquí</a></p>
-                </div>
-
-            </form>
-        </div>
-
-
-
-    </div>  
-
+   <div class="bg-white text-white" id="mnj">
+       <a href="">
+        Bloqueado, inicia sesion para desbloquearlo
+     </a> 
+    </div>
     
-    <script src="js/form.js"></script>
+</div>
+ 
+
+  
+    
+
+
+ 
 </body>
 </html>
