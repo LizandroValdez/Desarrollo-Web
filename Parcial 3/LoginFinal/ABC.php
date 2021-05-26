@@ -3,7 +3,7 @@
 
 <?php 
 
-$con = mysqli_connect("localhost", "root","","bd") or die ("Error!"); 
+$con = mysqli_connect("localhost", "root","","Web") or die ("Error!"); 
 
 ?>
 
