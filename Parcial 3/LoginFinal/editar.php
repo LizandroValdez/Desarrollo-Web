@@ -14,9 +14,9 @@ if(isset($_GET['editar'])){
 ?>
 <br />
 <form method="POST" action="">
-<input type="text" name="txtnombre" value="<?php echo $nombre; ?>"><br />
-<input type="text" name="txtedad" value="<?php echo $edad; ?>"><br />
-<input type="text" name="txtEsp" value="<?php echo $especialidad; ?>"><br />
+<input type="text" name="txtnombre" placeholder="Nombre" value="<?php echo $nombre; ?>"><br />
+<input type="text" name="txtedad"  placeholder="Edad" value="<?php echo $edad; ?>"><br />
+<input type="text" name="txtEsp"  placeholder="Especialidad" value="<?php echo $especialidad; ?>"><br />
 <input type="submiT" name="actualizar" value="ACTUALIZAR DATOS">
 </form>
 

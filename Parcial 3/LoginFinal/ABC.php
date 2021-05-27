@@ -13,7 +13,7 @@ $con = mysqli_connect("localhost", "root","","Web") or die ("Error!");
 	</HEAD><H1><P ALIGN="CENTER"><FONT SIZE="7" COLOR="BLACK" FACE="Tempus Sans ITC"> Alumnos ABC</H1><B><B></FONT> <B><B>
 	<meta charset="utf-8">
 </head>
-<body BACKGROUND="fondo2.JPG">
+<body BACKGROUND="fondo2.jpg">
  <form method="POST" action="ABC.php">
 	 <label>Nombre:<br></label>
 	 <input type="text" name="nombre" placeholder = "Escriba su nombre:"><br />
