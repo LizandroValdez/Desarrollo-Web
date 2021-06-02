@@ -14,3 +14,8 @@ CREATE TABLE `alumnos` (
   `Especialidad` varchar(20) NOT NULL,
   PRIMARY KEY (`id`)
 ) AUTO_INCREMENT=5;
+
+INSERT INTO `alumnos` (`id`, `Nombre`, `Edad`, `Especialidad`) VALUES
+(1, 'Lizandro', 21, 'Sistemas'),
+(2, 'Leonardo', 22, 'Mecatronica');
+COMMIT;
