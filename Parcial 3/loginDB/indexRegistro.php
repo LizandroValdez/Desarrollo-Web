@@ -20,7 +20,7 @@ $pass = $_POST["txtpassword"];
     if(empty($nombre) or empty($usuario) or empty($pass))
     {
         echo "<script> 
-        alert('No se pudo registrar'); 
+        alert('No se pudo registrar, llene todos los campos'); 
         window.location.href='Registro.html'; 
         </script>";
     }
