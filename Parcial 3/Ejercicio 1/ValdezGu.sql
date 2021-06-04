@@ -4,6 +4,7 @@ CREATE TABLE  `usuarios` (
   `nombre_usuario` varchar(20) NOT NULL,
   `password` varchar(20) NOT NULL,
   `nombre_completo` varchar(45) NOT NULL
+  PRIMARY KEY(`nombre_usuario`);
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 
