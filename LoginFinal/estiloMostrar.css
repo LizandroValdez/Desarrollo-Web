@@ -1,0 +1,15 @@
+.capturar{
+	position:relative;
+	left	:100px;
+    text-align: justify;
+}
+
+.mostrar{
+    position:relative;
+	bottom	:200px;
+}
+
+.editar{
+	position:relative;
+	bottom	:200px;
+}
